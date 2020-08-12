@@ -48,17 +48,6 @@ class SqliteHelper:
         c.execute(query)
         self.conn.commit()
 
-#test = SqliteHelper("database.db")
-#test.create_table_category()
-#test.create_table_paper()
-#test.create_table_paper_question()
-#test.create_table_question()
-#test.create_table_sub_category()
-
-# test.insert("INSERT INTO users (name,year,admin) VALUES ('atılım',1983,0)")
-# test.update("UPDATE users SET name='ali' where name='emrah'")
-# print(test.select("SELECT * FROM users"))
-
 
 
 
